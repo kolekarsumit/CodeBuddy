@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1097181972810",
+    "project_id": "code-buddy-ec86b",
+    "storage_bucket": "code-buddy-ec86b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097181972810:android:cb3ac24491082837de59b3",
+        "android_client_info": {
+          "package_name": "com.example.codebuddy2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097181972810-q8jrst8dfbda23jcr80c6efkiurv7038.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqu6k1VBLESUfV3eqmoja1edySR4Dmiyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097181972810-q8jrst8dfbda23jcr80c6efkiurv7038.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

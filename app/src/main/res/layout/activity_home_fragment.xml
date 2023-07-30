@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.home_fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/home_page_img_ic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Core codeing Instatite"
+                android:layout_marginTop="36dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/sub_title"
+                android:text="Welcome to Core Coding Institute, the premier destination for aspiring coders to unlock their full potential. We offer a dynamic learning environment where individuals of all skill levels can gain expertise in programming and embark on a rewarding journey in the tech industry.\n\n
+
+At Core Coding Institute, we believe that coding is not just about lines of code; it's a catalyst for innovation and problem-solving. Our comprehensive curriculum covers a wide range of programming languages, frameworks, and technologies, empowering students to develop versatile skills that align with industry demands.\n\n
+
+Led by experienced instructors, our courses blend theoretical knowledge with hands-on projects, allowing students to apply their learning to real-world scenarios. Whether you're a beginner taking your first steps or an experienced programmer looking to level up, our tailored programs cater to diverse interests and career aspirations.\n\n
+
+Beyond the classroom, Core Coding Institute fosters a vibrant community of learners. We organize networking events, workshops, and hackathons, providing opportunities for students to collaborate, exchange ideas, and connect with industry professionals. We believe in the power of mentorship, and our dedicated team is committed to supporting each student's growth and success.
+
+Join Core Coding Institute today and embark on a transformative journey in the world of coding. Unleash your creativity, gain valuable skills, and embrace a future filled with endless possibilities in the ever-evolving tech landscape."
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact us :  1234567890"
+                android:fontFamily="@font/headertext"
+                android:gravity="center_horizontal"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

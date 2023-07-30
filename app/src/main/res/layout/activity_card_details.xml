@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Course.CardDetails">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Java"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/java" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="Java is a widely used programming language that was first released by Sun Microsystems in 1995. It was designed to be platform-independent, allowing developers to write code that could run on any device or operating system with a Java Virtual Machine (JVM). This write once, run anywhere capability revolutionized software development.
+            In 2002, programming language in the software industry, and its versatility, performance, and large developer community continue to contribute to its enduring success."
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="click here to get syllabus"
+                android:id="@+id/btn"/>
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+  
+    
+    
+    
